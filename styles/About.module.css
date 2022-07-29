@@ -1,0 +1,107 @@
+.container {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.contentContainer {
+    width: 1024px;
+    max-width: 100%;
+
+}
+
+
+
+.title {
+
+    font-family: Mukta;
+    /* font-family: 'Courgette'; */
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    vertical-align: middle;
+
+
+}
+
+
+.content {
+    font-family: Hind;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align: justify;
+    color: #FFFFFF;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .content {
+        text-align: center;
+    }
+}
+
+
+
+
+
+.link {
+    font-style: italic;
+    font-weight: 800;
+    text-decoration: underline;
+    transition: all 0.4s;
+    transform: scale(1.0);
+    -webkit-transform: scale(1.0);
+
+}
+
+
+.link:hover {
+    /* color: #DD093F; */
+    /* text-decoration-color: #DD093F; */
+    /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 50%, #DD093F 50%); */
+    background-color: #DD093F;
+    /* background-color: white; */
+
+}
+
+
+
+
+.personContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 140px;
+    height: 140px;
+}
+
+.image {
+    border-radius: 30px;
+
+}
+
+
+
+.imageGrid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageContainer {
+    width: 100%;
+    padding: 20px;
+}

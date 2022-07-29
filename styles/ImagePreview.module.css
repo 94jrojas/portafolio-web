@@ -1,0 +1,26 @@
+.image {
+    object-fit: cover;
+}
+
+.imageContainerTall {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 117%;
+}
+
+.imageContainer {
+    margin-top: 20px;
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+}
+
+
+.imageThumb {
+    border-radius: 30px;
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+}

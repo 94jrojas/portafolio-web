@@ -1,0 +1,38 @@
+.Toastify__toast-container {
+    width: 400px;
+    max-width: 100vw;
+}
+
+.Toastify__toast--error {
+    background-color: #D62237;
+    border-radius: 20px;
+
+}
+
+.Toastify__toast-body {
+    padding: 20px;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
+    font-family: Hind,
+        Verdana;
+    font-weight: 600;
+}
+
+
+.Toastify__toast--dark {}
+
+.Toastify__toast--default {}
+
+.Toastify__toast--info {
+    background-color: #A51DA5;
+}
+
+.Toastify__toast--success {
+    background-color: #1EA51D;
+    /* color: black; */
+
+}
+
+.Toastify__toast--warning {
+    background-color: #FFCD05;
+}

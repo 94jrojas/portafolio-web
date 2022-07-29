@@ -1,0 +1,71 @@
+.shiny {
+    color: #ffc400;
+    background: -webkit-gradient(linear, left top, left bottom, from(#F5C21B), to(#D17000));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: inline-block;
+    position: relative;
+    text-transform: uppercase;
+    font-family: Hind;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 3.4rem;
+    margin-right: 20px;
+    font-weight: 900;
+    text-shadow: 0 0 60px 30px rgb(255, 166, 0);
+
+}
+
+.shiny::before {
+    background-position: -180px;
+    animation: flare 3s infinite;
+    animation-timing-function: linear;
+    background-image: linear-gradient(65deg, transparent 20%, rgba(255, 255, 255, 0.2) 20%, rgba(255, 255, 255, 0.3) 27%, transparent 27%, transparent 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    content: "$0";
+    color: #FFF;
+    display: block;
+    padding-right: 140px;
+    position: absolute;
+}
+
+.shiny::after {
+    content: "$0";
+    color: #FFF;
+    display: block;
+    position: absolute;
+    /* text-shadow: 0 1px #ff8800, 0 2px #6E4414, 0 3px #6E4414, 0 4px #6E4414, 0 5px #6E4414, 0 6px #6E4414, 0 7px #6E4414, 0 8px #6E4414, 0 9px #6E4414, 0 10px #6E4414; */
+    top: 0;
+    z-index: -1;
+}
+
+@keyframes flare {
+    0% {
+        background-position: -180px;
+    }
+
+
+    100% {
+        background-position: 200px;
+    }
+}
+
+@keyframes sparkle {
+    0% {
+        opacity: 0;
+    }
+
+    30% {
+        opacity: 0;
+    }
+
+    40% {
+        opacity: 0.8;
+    }
+
+    100% {
+        opacity: 0;
+    }
+
+}
